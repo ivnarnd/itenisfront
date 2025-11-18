@@ -1,5 +1,5 @@
-const NavBarComponent = ()=>{
-    return(
+const NavBarComponent = () => {
+    return (
         <nav>
             <ul>
                 <li>Home</li>
@@ -7,6 +7,6 @@ const NavBarComponent = ()=>{
                 <li>Login</li>
             </ul>
         </nav>
-    )
+    );
 }
 export default NavBarComponent;

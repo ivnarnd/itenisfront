@@ -1,12 +1,12 @@
 import FooterComponent from "../components/FooterComponent.jsx"
 import HeaderComponent from "../components/HeaderComponent.jsx"
 
-const HomePage = ()=>{
-    return(
+const HomePage = () => {
+    return (
         <main>
-            <HeaderComponent/>
+            <HeaderComponent />
             <p>HomePage</p>
-            <FooterComponent/>
+            <FooterComponent />
         </main>
     )
 }

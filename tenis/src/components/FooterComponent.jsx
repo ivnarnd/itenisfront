@@ -1,4 +1,4 @@
-const FooterComponent = ()=>{
+const FooterComponent = () => {
     return (
         <footer>
             <p>Ivan Aranda - 2025</p>
