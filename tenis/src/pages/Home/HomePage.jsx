@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
-import FooterComponent from "../components/FooterComponent.jsx"
-import HeaderComponent from "../components/HeaderComponent.jsx"
-import { getDate, getSoon, transformDate } from "../utils/DateManager.js";
+import FooterComponent from "../../components/FooterComponent.jsx"
+import HeaderComponent from "../../components/HeaderComponent.jsx"
+import { getDate, getSoon, transformDate } from "../../utils/DateManager.js";
 
 const HomePage = () => {
     const [date, setDate] = useState(getDate());
