@@ -7,7 +7,9 @@ const NavBarComponent = () => {
                 <li>
                     <NavLink to={'/'} activeClassName={'active'}>Home</NavLink>
                 </li>
-                <li>Reservar</li>
+                <li>
+                    <NavLink to={'/courts'} activeClassName={'active'}>Canchas</NavLink>
+                </li>
                 <li>Login</li>
             </ul>
         </nav>
