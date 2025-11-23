@@ -10,7 +10,9 @@ const NavBarComponent = () => {
                 <li>
                     <NavLink to={'/courts'} activeClassName={'active'}>Canchas</NavLink>
                 </li>
-                <li>Login</li>
+                <li>
+                    <NavLink to={'/register'} activeClassName={'active'}>Registrar</NavLink>
+                </li>
             </ul>
         </nav>
     );
